@@ -1,0 +1,9 @@
+1. Missing Alternative Text (Error)
+    Observation: An image lacks alternative text.
+    Impact: Screen readers cannot describe the image to visually impaired users.
+    Solution: Add an alt attribute to the <img> tag with a meaningful description of the image.
+
+2. No Heading Structure (Alert)
+    Observation: The page lacks a proper heading hierarchy (<h1>, <h2>, etc.).
+    Impact: Users using screen readers will struggle to navigate the page's structure.
+    Solution: Use headings to create a logical structure for content. Start with <h1> for the main title and <h2> or <h3> for subheadings.
