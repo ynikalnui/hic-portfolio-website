@@ -7,3 +7,8 @@
     Observation: The page lacks a proper heading hierarchy (<h1>, <h2>, etc.).
     Impact: Users using screen readers will struggle to navigate the page's structure.
     Solution: Use headings to create a logical structure for content. Start with <h1> for the main title and <h2> or <h3> for subheadings.
+
+3. Page is Not Responsive
+    Observation: The webpage layout does not adapt to different screen sizes or devices.
+    Impact: Poor user experience on mobile devices and smaller screens.
+    Solution: Implement responsive design techniques using CSS media queries and flexible layouts to ensure the webpage is accessible and usable on all devices.
