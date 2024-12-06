@@ -41,6 +41,20 @@
     column-gap: 1rem;
 }
 
+.nav-item {
+    border-bottom: .3rem solid transparent;
+    transition: border .2s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    border-color: #000000;
+}
+
+.nav-item.active {
+    border-color: #000000;
+}
+
 .nav-link {
     color: #000000;
     font-weight: bold;
