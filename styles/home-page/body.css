@@ -16,3 +16,43 @@
     width: 23rem;
     height: 30rem;
 }
+
+@media (max-width: 1024px) {
+    .home-content-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-intro {
+        font-size: 1.3em;
+        line-height: 1.9rem;
+    }
+
+    .home-photo {
+        width: 20rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-intro {
+        font-size: 1.2em;
+        line-height: 1.8rem;
+    }
+
+    .home-photo {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-intro {
+        font-size: 1em;
+        line-height: 1.5rem;
+    }
+
+    .home-photo {
+        width: 15rem;
+    }
+}

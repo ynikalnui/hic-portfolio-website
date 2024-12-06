@@ -12,3 +12,8 @@
     Observation: The webpage layout does not adapt to different screen sizes or devices.
     Impact: Poor user experience on mobile devices and smaller screens.
     Solution: Implement responsive design techniques using CSS media queries and flexible layouts to ensure the webpage is accessible and usable on all devices.
+
+4. Main sectino on home page is Not Responsive
+    Observation: Section does not adapt to different screen sizes or devices.
+    Impact: Poor user experience on mobile devices and smaller screens.
+    Solution: Implement responsive design techniques using CSS media queries and flexible layouts to ensure the webpage is accessible and usable on all devices.
