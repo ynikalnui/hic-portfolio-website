@@ -32,3 +32,9 @@
     Observation: Several pages have little to no content.
     Impact: The website feels incomplete and unprofessional, impacting its usability and credibility.
     Solution: Add meaningful content to each page, ensuring they serve a clear purpose and provide value to users. This includes text, images, and interactive features.
+
+8. Missing Links in Footer Social Buttons (Critical)
+    Observation: The social buttons in the footer are non-functional because they lack external links.
+    Impact: Users cannot navigate to relevant social media platforms, reducing usability and accessibility.
+    Solution: Add valid URLs to each `<a>` element in the footer social buttons to link to the respective platforms (e.g., GitHub, LinkedIn, Gmail, Telegram).
+
