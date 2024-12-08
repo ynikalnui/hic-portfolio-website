@@ -9,48 +9,78 @@
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
-    <header class="header-container">
-        <div class="header-info-section">
-            <img 
-            src="/assets/images/my-logo-png.png" 
-            alt="my logo"
-            class="header-logo"
-            >
-
-            <div class="header-about">
-                <h1 class="header-name">Oleh Skakun</h1>
-                <h2 class="header-speciality">Front-end developer</h2>
+    <div class="main-conatiner">
+        <header class="header-container">
+            <div class="header-info-section">
+                <img 
+                src="/assets/images/my-logo-png.png" 
+                alt="my logo"
+                class="header-logo"
+                >
+    
+                <div class="header-about">
+                    <h1 class="header-name">Oleh Skakun</h1>
+                    <h2 class="header-speciality">Front-end developer</h2>
+                </div>
             </div>
-        </div>
+    
+            <ul class="navbar">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/interests.html">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/projects.html">Projects</a>
+                </li>
+            </ul>
+        </header>
 
-        <ul class="navbar">
-            <li class="nav-item active">
-                <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/interests.html">Interests</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/projects.html">Projects</a>
-            </li>
-        </ul>
-    </header>
-
-    <section class="home-content-container">
-        <p class="home-intro">
-            My main features are hardworking, fast learning, and producing high- quality results. I love coding in HTML/(S)CSS/JS, transforming designs into interactive, responsive web pages. 
-
-            I use Figma as my primary design tool, though I am familiar with other tools. I prioritise writing clean, well-structured, and maintainable code. I work extensively with React and Next.js, leveraging modern technologies and best practices to deliver optimised, scalable, and production-ready solutions. 
-
-            Additionally, I focus on performance optimizations, ensuring efficient code, minified assets, and a smooth deployment process. My projects effectively showcase my attention to detail and commitment to quality, ensuring the final product exceeds expectations.
-        </p>
-
-        <img 
-        src="/assets/images/i-am.jpeg" 
-        class="home-photo"
-        alt="my photo" 
-        />
-    </section>
+        <section class="home-content-container">
+            <p class="home-intro">
+                My main features are hardworking, fast learning, and producing high- quality results. I love coding in HTML/(S)CSS/JS, transforming designs into interactive, responsive web pages. 
+    
+                I use Figma as my primary design tool, though I am familiar with other tools. I prioritise writing clean, well-structured, and maintainable code. I work extensively with React and Next.js, leveraging modern technologies and best practices to deliver optimised, scalable, and production-ready solutions. 
+    
+                Additionally, I focus on performance optimizations, ensuring efficient code, minified assets, and a smooth deployment process. My projects effectively showcase my attention to detail and commitment to quality, ensuring the final product exceeds expectations.
+            </p>
+    
+            <img 
+            src="/assets/images/i-am.jpeg" 
+            class="home-photo"
+            alt="my photo" 
+            />
+        </section>
+        
+        <footer class="footer-container">
+            <p class="footer-text">&copy;Oleh Skakun Hertfordshire Student 2024</p>
+        
+            <ul class="social-list">
+                <li class="social-item">
+                    <a class="social-link" href="#">
+                        <img class="social-icon" src="/assets/images/github-icon.svg" alt="GitHub">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="social-link" href="#">
+                        <img class="social-icon" src="/assets/images/gmail-icon.svg" alt="Gmail">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="social-link" href="#">
+                        <img class="social-icon" src="/assets/images/linkedin-icon.svg" alt="LinkedIn">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="social-link" href="#">
+                        <img class="social-icon" src="/assets/images/telegram-icon.svg" alt="Telegram">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+    </div>
 
     <!-- Connect JS -->
     <script src="/scripts/main.js" defer></script>

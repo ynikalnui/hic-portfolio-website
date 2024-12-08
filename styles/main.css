@@ -1,3 +1,11 @@
 @import './base/presets.css';
 @import './globals/navbar.css';
+@import './globals/footer.css';
 @import './home-page/body.css';
+
+.main-conatiner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}

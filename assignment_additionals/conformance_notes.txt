@@ -17,3 +17,18 @@
     Observation: Section does not adapt to different screen sizes or devices.
     Impact: Poor user experience on mobile devices and smaller screens.
     Solution: Implement responsive design techniques using CSS media queries and flexible layouts to ensure the webpage is accessible and usable on all devices.
+
+5. Missing Footer (Alert)
+    Observation: The website lacks a footer section.
+    Impact: Users cannot access basic navigation, copyright details, or contact information easily.
+    Solution: Implement a footer with relevant information and navigation links.
+
+6. Lacking Animations (Alert)
+    Observation: The website lacks animations, making the user experience static.
+    Impact: Reduced user engagement and visual appeal.
+    Solution: Add animations such as hover effects, scroll transitions, or interactive elements to enhance the interface.
+
+7. Lacking Content (Critical)
+    Observation: Several pages have little to no content.
+    Impact: The website feels incomplete and unprofessional, impacting its usability and credibility.
+    Solution: Add meaningful content to each page, ensuring they serve a clear purpose and provide value to users. This includes text, images, and interactive features.
