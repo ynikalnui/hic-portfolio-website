@@ -57,17 +57,3 @@
         order: 1;
     }
 }
-
-@media (max-width: 480px) {
-    .header-name {
-        font-size: 1.8em;
-    }
-
-    .header-speciality {
-        font-size: 1.3em;
-    }
-
-    .nav-link {
-        font-size: 1.3rem;
-    }
-}

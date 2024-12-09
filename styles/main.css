@@ -1,7 +1,8 @@
 @import './base/presets.css';
 @import './globals/navbar.css';
 @import './globals/footer.css';
-@import './home-page/body.css';
+@import './pages/home/body.css';
+@import './pages/interests/body.css';
 
 .main-conatiner {
     display: flex;
