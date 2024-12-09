@@ -8,7 +8,7 @@
     font-weight: 500;
 }
 
-.footer-text {
+.copyright-text {
     margin: 0;
     font-size: 1rem;
 }
@@ -45,4 +45,29 @@
 .social-icon {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        row-gap: .5rem;
+    }
+
+    .copyright-text {
+        order: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-name {
+        font-size: 1.8em;
+    }
+
+    .header-speciality {
+        font-size: 1.3em;
+    }
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
 }
