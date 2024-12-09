@@ -41,6 +41,12 @@
     text-align: center;
     border-radius: 16px;
     font-size: 1.2em;
+    transition: transform .2s ease-in-out;
+    cursor: default;
+}
+
+.interest-item:hover {
+    transform: translateY(-4px);
 }
 
 @media (max-width: 768px) {
