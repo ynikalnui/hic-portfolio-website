@@ -9,7 +9,7 @@
 .home-intro {
     font-weight: 500;
     font-size: 1.5em;
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 .home-photo {
@@ -17,9 +17,16 @@
     height: 30rem;
 }
 
+@media (max-width: 1400px) {
+    .home-intro {
+        line-height: 2rem;
+    }
+}
+
 @media (max-width: 1024px) {
     .home-content-container {
         flex-direction: column;
+        row-gap: 1rem;
         align-items: center;
         text-align: center;
     }

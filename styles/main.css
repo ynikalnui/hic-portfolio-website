@@ -3,6 +3,7 @@
 @import './globals/footer.css';
 @import './pages/home/body.css';
 @import './pages/interests/body.css';
+@import './pages/portfolio/body.css';
 
 .main-conatiner {
     display: flex;
