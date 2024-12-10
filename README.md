@@ -1,4 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kBu0PB1_)
+
+--- 
+
 Note: This project has been developed using my main GitHub repository and was subsequently repushed to this repository for submission purposes.
 
 # Your Accessible and Usable Profile Site
