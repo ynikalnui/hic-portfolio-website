@@ -4,6 +4,8 @@
 
 Note: This project has been developed using my main GitHub repository and was subsequently repushed to this repository for submission purposes.
 
+---
+
 # Your Accessible and Usable Profile Site
 
 ## Table of Contents
